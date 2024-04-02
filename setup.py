@@ -16,7 +16,7 @@ from torch.utils.cpp_extension import CUDAExtension, BuildExtension
 dirname(abspath(__file__))
 
 setup(
-    name="diff_gauss",
+    name="diff_gauss_nd",
     packages=['diff_gauss'],
     ext_modules=[
         CUDAExtension(
