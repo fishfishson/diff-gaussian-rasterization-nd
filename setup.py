@@ -17,10 +17,10 @@ dirname(abspath(__file__))
 
 setup(
     name="diff_gauss_nd",
-    packages=['diff_gauss'],
+    packages=['diff_gauss_nd'],
     ext_modules=[
         CUDAExtension(
-            name="diff_gauss._C",
+            name="diff_gauss_nd._C",
             sources=[
                 "cuda_rasterizer/rasterizer_impl.cu",
                 "cuda_rasterizer/forward.cu",
